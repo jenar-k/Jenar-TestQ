@@ -1,9 +1,9 @@
 # Automation Test Using Cypress and Cucumber Gerkhin
 
-This is my repository to store my code in the technical skill test for the Quality Assurance Engineer position at SimliDOTS. I do a automation test for [The Movie Database](https://www.themoviedb.org/). For this text, I user OS: Windows and Chrome Browser.
+This is my repository to store my code for the technical skill test for the Quality Assurance Engineer position at SimpliDOTS. I do a automation test for [The Movie Database](https://www.themoviedb.org/). For this text, I used Windows and the Chrome Browser.
 
-You can see the test scenario using this link
-[Test Scenario](https://nodejs.org/en/download)
+You can see the test scenario using this link:
+[Test Scenario](https://docs.google.com/document/d/1c1ZAn3c12r786TIvkROJRwaziGtl99dAKpDAYpyyQyc/edit?usp=sharing)
 
 I also provide some suggestions, so all users have a better experience when using the application. These suggestions can be seen in the following document: [Suggestion Document](https://nodejs.org/en/download)
 
