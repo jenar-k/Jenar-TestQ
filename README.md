@@ -5,7 +5,7 @@ This is my repository to store my code for the technical skill test for the Qual
 You can see the test scenario using this link:
 [Test Scenario](https://docs.google.com/document/d/1c1ZAn3c12r786TIvkROJRwaziGtl99dAKpDAYpyyQyc/edit?usp=sharing)
 
-I also provide some suggestions, so all users have a better experience when using the application. These suggestions can be seen in the following document: [Suggestion Document](https://nodejs.org/en/download)
+I also provide some suggestions, so all users have a better experience when using the application. These suggestions can be seen in the following document: [Suggestion Document](https://docs.google.com/document/d/1FU4R-EfkkyYlp_mp2joXVE0OuRDskdUk-r2KMcRusOE/edit?usp=sharing)
 
 Required softwares:
 - [Node.js - version: 16.13.0](https://nodejs.org/en/download)
@@ -89,3 +89,9 @@ npx cypress open
 Video
 ----------------------
 You can view the test video via [the following link](https://nodejs.org/en/download)
+
+Report
+----------------------
+This is screenshot of report document for this technical test
+![Report](https://github.com/jenar-k/Jenar-TestQ/assets/86145540/70147e99-ffd4-491f-b76d-56ec4c4fe476)
+
