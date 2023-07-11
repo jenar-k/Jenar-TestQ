@@ -12,8 +12,8 @@ Required softwares:
 - [Cypress - verison: 12.7.0](https://docs.cypress.io/guides/getting-started/installing-cypress)
 - [Cypress cucumber preprocessor - version: 4.3.1](https://www.npmjs.com/package/cypress-cucumber-preprocessor)
 - [Faker - version: 8.0.2](https://fakerjs.dev/)
-- [XPath npm](https://www.npmjs.com/package/cypress-xpath)
-- [Visual studio Code editior](https://code.visualstudio.com/download)
+- [XPath Locator](https://www.npmjs.com/package/cypress-xpath)
+- [Visual Studio Code editior](https://code.visualstudio.com/download)
 
 How to install Node.js
 ----------------------
