@@ -1,0 +1,447 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Add film to favorite",
+    "line": 1,
+    "id": "add-film-to-favorite",
+    "tags": [],
+    "uri": "03_Favorite_Film.feature",
+    "elements": [
+      {
+        "id": "add-film-to-favorite;user-can't-add-favorite-film-because-not-login-yet",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "User can't add favorite film because not login yet",
+        "tags": [
+          {
+            "name": "@PositiveCase",
+            "line": 6
+          },
+          {
+            "name": "@favorite",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "open homepage of TMDB",
+            "result": {
+              "status": "passed",
+              "duration": 5880000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I search the film",
+            "result": {
+              "status": "passed",
+              "duration": 1894000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I go to the film details",
+            "result": {
+              "status": "passed",
+              "duration": 3637000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click favorite icon",
+            "result": {
+              "status": "passed",
+              "duration": 173000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "tools tip Login to add this movie to your favorite list will appear",
+            "result": {
+              "status": "passed",
+              "duration": 83000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "add-film-to-favorite;success-add-favorite-film",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Success add favorite film",
+        "tags": [
+          {
+            "name": "@PositiveCase",
+            "line": 13
+          },
+          {
+            "name": "@favorite",
+            "line": 13
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "open homepage of TMDB",
+            "result": {
+              "status": "passed",
+              "duration": 2074000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I login with valid data",
+            "result": {
+              "status": "passed",
+              "duration": 3390000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "verify should be on dashboard page",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I click Logo TMDB icon",
+            "result": {
+              "status": "passed",
+              "duration": 1127000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I search one film",
+            "result": {
+              "status": "passed",
+              "duration": 1722000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I go to the film details",
+            "result": {
+              "status": "passed",
+              "duration": 1978000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I click favorite icon",
+            "result": {
+              "status": "passed",
+              "duration": 193000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I go to Favorite page",
+            "result": {
+              "status": "passed",
+              "duration": 2570000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "Validate 'Mission Imposible' should be on the favorite list",
+            "result": {
+              "status": "passed",
+              "duration": 2780000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "add-film-to-favorite;success-add-favorite-film-for-the-second-time",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Success add favorite film for the second time",
+        "tags": [
+          {
+            "name": "@PositiveCase",
+            "line": 24
+          },
+          {
+            "name": "@favorite",
+            "line": 24
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "open homepage of TMDB",
+            "result": {
+              "status": "passed",
+              "duration": 3966000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "I login with valid data",
+            "result": {
+              "status": "passed",
+              "duration": 3626000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "verify should be on dashboard page",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "I click Logo TMDB icon",
+            "result": {
+              "status": "passed",
+              "duration": 2874000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I search one film again",
+            "result": {
+              "status": "passed",
+              "duration": 2116000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "I go to the film details of Minions",
+            "result": {
+              "status": "passed",
+              "duration": 5388000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "I click favorite icon",
+            "result": {
+              "status": "passed",
+              "duration": 191000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "I go to Favorite page",
+            "result": {
+              "status": "passed",
+              "duration": 2719000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "Validate 'Minions' should be appear on the favorite list",
+            "result": {
+              "status": "passed",
+              "duration": 2754000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "add-film-to-favorite;success-remove-one-favorite-film",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Success remove one favorite film",
+        "tags": [
+          {
+            "name": "@PositiveCase",
+            "line": 35
+          },
+          {
+            "name": "@favorite",
+            "line": 35
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "open homepage of TMDB",
+            "result": {
+              "status": "passed",
+              "duration": 1660000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "I login with valid data",
+            "result": {
+              "status": "passed",
+              "duration": 3309000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "verify should be on dashboard page",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "I go to Favorite page",
+            "result": {
+              "status": "passed",
+              "duration": 935000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "I remove minions movies from favorite list",
+            "result": {
+              "status": "passed",
+              "duration": 191000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "Validate 'Minions' should not appear on the favorite list",
+            "result": {
+              "status": "passed",
+              "duration": 1292000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "add-film-to-favorite;success-sorting-favorite-film",
+        "keyword": "Scenario",
+        "line": 44,
+        "name": "Success sorting favorite film",
+        "tags": [
+          {
+            "name": "@PositiveCase",
+            "line": 43
+          },
+          {
+            "name": "@favorite",
+            "line": 43
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "open homepage of TMDB",
+            "result": {
+              "status": "passed",
+              "duration": 1691000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 45,
+            "name": "I login with valid data",
+            "result": {
+              "status": "passed",
+              "duration": 2859000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "verify should be on dashboard page",
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "I go to Favorite page",
+            "result": {
+              "status": "passed",
+              "duration": 1407000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 48,
+            "name": "Select Descending-Ascending-Descending-Ascending sorting",
+            "result": {
+              "status": "passed",
+              "duration": 5479000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

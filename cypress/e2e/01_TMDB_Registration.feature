@@ -4,7 +4,7 @@ Background:
     Given open homepage of TMDB
 
 @PositiveCase @Registration
-Scenario: Success regisration new account for TMDB
+Scenario: Success registration new account for TMDB
     When I click Login button in header section
     And I click the click here button
     And I type the username
@@ -15,7 +15,7 @@ Scenario: Success regisration new account for TMDB
     And verify Account verification required is appear
 
 @NegativeCase @Registration
-Scenario: Failed regisration new account for TMDB because username already taken
+Scenario: Failed registration new account for TMDB because username already taken
     When I click Login button in header section
     And I click the click here button
     And I type the username
@@ -30,7 +30,7 @@ Scenario: Failed regisration new account for TMDB because username already taken
     And verify error message Username has already been taken is appear
 
 @NegativeCase @Registration
-Scenario: Failed regisration new account for TMDB because leaves blank username
+Scenario: Failed registration new account for TMDB because leaves blank username
     When I click Login button in header section
     And I click the click here button
     And I type the password 
@@ -41,7 +41,7 @@ Scenario: Failed regisration new account for TMDB because leaves blank username
     And verify error message Username is required is appear
 
 @NegativeCase @Registration
-Scenario: Failed regisration new account for TMDB because leaves blank password
+Scenario: Failed registration new account for TMDB because leaves blank password
     When I click Login button in header section
     And I click the click here button
     And I type the username
@@ -52,7 +52,7 @@ Scenario: Failed regisration new account for TMDB because leaves blank password
     And verify error message Password is required is appear
 
 @NegativeCase @Registration
-Scenario: Failed regisration new account for TMDB because leaves blank confirm password
+Scenario: Failed registration new account for TMDB because leaves blank confirm password
     When I click Login button in header section
     And I click the click here button
     And I type the username
@@ -63,7 +63,7 @@ Scenario: Failed regisration new account for TMDB because leaves blank confirm p
     And verify error message Password confirm can't blank is appear
 
 @NegativeCase @Registration
-Scenario: Failed regisration new account for TMDB because leaves blank Email
+Scenario: Failed registration new account for TMDB because leaves blank Email
     When I click Login button in header section
     And I click the click here button
     And I type the username
@@ -74,7 +74,7 @@ Scenario: Failed regisration new account for TMDB because leaves blank Email
     And verify error message Email is required is appear
 
 @NegativeCase @Registration
-Scenario: Failed regisration new account for TMDB because invalid format email
+Scenario: Failed registration new account for TMDB because invalid format email
     When I click Login button in header section
     And I click the click here button
     And I type the username
@@ -88,7 +88,7 @@ Scenario: Failed regisration new account for TMDB because invalid format email
     And verify error message Email does not appear to be a valid email address is appear
 
 @NegativeCase @Registration
-Scenario: Failed regisration new account for TMDB because invalid password
+Scenario: Failed registration new account for TMDB because invalid password
     When I click Login button in header section
     And I click the click here button
     And I type the username
@@ -101,7 +101,7 @@ Scenario: Failed regisration new account for TMDB because invalid password
     And verify error message Password needs to be at least 4 characters long is appear
 
 @NegativeCase @Registration
-Scenario: Failed regisration new account for TMDB because password and confirm password is different
+Scenario: Failed registration new account for TMDB because password and confirm password is different
     When I click Login button in header section
     And I click the click here button
     And I type the username
