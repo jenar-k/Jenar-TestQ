@@ -1,8 +1,8 @@
 # Automation Test Using Cypress and Cucumber Gerkhin
 
-This is my repository to store my code for the technical skill test for the Quality Assurance Engineer position at SimpliDOTS. I do a automation test for [The Movie Database](https://www.themoviedb.org/). For this text, I used Windows and the Chrome Browser.
+This is my repository to store my code for the technical skill test for the Quality Assurance Engineer position at SimpliDOTS. I do a automation test for [The Movie Database](https://www.themoviedb.org/) using Cypress. For this test, I used Windows and the Chrome Browser.
 
-You can see the test scenario using this link:
+You can see the test scenario document using this link:
 [Test Scenario](https://docs.google.com/document/d/1c1ZAn3c12r786TIvkROJRwaziGtl99dAKpDAYpyyQyc/edit?usp=sharing)
 
 I also provide some suggestions, so all users have a better experience when using the application. These suggestions can be seen in the following document: [Suggestion Document](https://docs.google.com/document/d/1FU4R-EfkkyYlp_mp2joXVE0OuRDskdUk-r2KMcRusOE/edit?usp=sharing)
@@ -27,24 +27,24 @@ Step to installing Node.js is:
 How to Install Cypress
 ----------------------
 * Step1: create new folder - open new created folder in VS
-* Step2: open terminal
+* Step2: open terminal and type
 ```
 npm init -y
 ```
-Or
+or
 ```
 npm install cypress --save-dev
 ```
-* It will install cypress
+* It will install cypress oon your local device
 
 How to Setup Cucumber
 ----------------------
 Step to Setup Cucumber is:
-* Step1: open terminal type: 
+* Step1: open terminal and type: 
 ```
 npm install --save-dev cypress-cucumber-preprocessor
 ```
-* Step2: add the configutation Cypress environment files cypress.config.js
+* Step2: add the configutation Cypress environment files in cypress.config.js
 ```
 const cucumber = require('cypress-cucumber-preprocessor').default
 const { defineConfig } = require("cypress");
@@ -88,9 +88,9 @@ npx cypress open
 
 Video
 ----------------------
-You can view the test video via [the following link](https://drive.google.com/file/d/14dZ-d8CeeGHZcFQtZdJKPhpv-hYowkUs/view?usp=sharing)
+You can view how the test running via video by accessing [the following link](https://drive.google.com/file/d/14dZ-d8CeeGHZcFQtZdJKPhpv-hYowkUs/view?usp=sharing).
 
-Report
+Report Document
 ----------------------
 This is screenshot of report document for this technical test
 ![Report](https://github.com/jenar-k/Jenar-TestQ/assets/86145540/70147e99-ffd4-491f-b76d-56ec4c4fe476)
