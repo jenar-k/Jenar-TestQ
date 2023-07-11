@@ -88,7 +88,7 @@ npx cypress open
 
 Video
 ----------------------
-You can view the test video via [the following link](https://nodejs.org/en/download)
+You can view the test video via [the following link](https://drive.google.com/file/d/14dZ-d8CeeGHZcFQtZdJKPhpv-hYowkUs/view?usp=sharing)
 
 Report
 ----------------------
