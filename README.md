@@ -2,6 +2,10 @@
 
 This is my repository to store my code for the technical skill test for the Quality Assurance Engineer position at SimpliDOTS. I do a automation test for [The Movie Database](https://www.themoviedb.org/) using Cypress. For this test, I used Windows and the Chrome Browser.
 
+> **Quotes:**
+> 
+> ”The only real mistake is the one from which we learn nothing" - John Powell
+
 You can see the test scenario document using this link:
 [Test Scenario](https://docs.google.com/document/d/1c1ZAn3c12r786TIvkROJRwaziGtl99dAKpDAYpyyQyc/edit?usp=sharing)
 
@@ -22,49 +26,52 @@ Step to installing Node.js is:
 * Step2: download exe for Windows
 * Step3: goto download location and double click on exe
 * Step4: start install
-* Step5: open cmd and type - node --version check version 
+* Step5: open CMD/ CLI and type node --version check version
+  ```
+  node --version
+  ```
 
 How to Install Cypress
 ----------------------
 * Step1: create new folder - open new created folder in VS
 * Step2: open terminal and type
-```
-npm init -y
-```
-or
-```
-npm install cypress --save-dev
-```
-* It will install cypress oon your local device
+  ```
+  npm init -y
+  ```
+  or
+  ```
+  npm install cypress --save-dev
+  ```
+* It will install Cypress on your local device
 
 How to Setup Cucumber
 ----------------------
 Step to Setup Cucumber is:
 * Step1: open terminal and type: 
-```
-npm install --save-dev cypress-cucumber-preprocessor
-```
+  ```
+  npm install --save-dev cypress-cucumber-preprocessor
+  ```
 * Step2: add the configutation Cypress environment files in cypress.config.js
-```
-const cucumber = require('cypress-cucumber-preprocessor').default
-const { defineConfig } = require("cypress");
-
-module.exports = defineConfig({
-  e2e: {
-    setupNodeEvents(on, config) {
-      on('file:preprocessor', cucumber())
+  ```
+  const cucumber = require('cypress-cucumber-preprocessor').default
+  const { defineConfig } = require("cypress");
+  
+  module.exports = defineConfig({
+      e2e: {
+      setupNodeEvents(on, config) {
+        on('file:preprocessor', cucumber())
+      },
+      specPattern: "cypress/e2e/*.feature",
     },
-    specPattern: "cypress/e2e/*.feature",
-  },
-});
-```
+  });
+  ```
 * Step3: goto package.json
-```
-"cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinitions": true,
-    "step_definitions": "cypress/e2e"
-  }
-```
+  ```
+  "cypress-cucumber-preprocessor": {
+      "nonGlobalStepDefinitions": true,
+      "step_definitions": "cypress/e2e"
+    }
+  ```
 
 How to Run
 ----------------------
@@ -77,9 +84,9 @@ How to Run
 
   
 * Step 2: Open the Cypress and Run under Browser
-```
-npx cypress open
-```
+  ```
+  npx cypress open
+  ```
 * Step 3: Go to file.feature and run it
 
     ![Test file](https://github.com/jenar-k/Jenar-TestQ/assets/86145540/4903ed15-9086-410c-960f-eee4a9589194)
@@ -94,4 +101,3 @@ Report Document
 ----------------------
 This is screenshot of report document for this technical test
 ![Report](https://github.com/jenar-k/Jenar-TestQ/assets/86145540/70147e99-ffd4-491f-b76d-56ec4c4fe476)
-
