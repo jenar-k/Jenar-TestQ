@@ -72,15 +72,15 @@ How to Run
 
   * Go to cypress.config.js
   * Go to env section
-  * Edit username and password
+  * Edit username and password using your credentials
     ![Username and password location](https://github.com/jenar-k/Jenar-TestQ/assets/86145540/3b35d8c2-5479-4cb0-aa7d-9c3860538bc2)
 
   
-* Step 2: Run under Browser
+* Step 2: Open the Cypress and Run under Browser
 ```
 npx cypress open
 ```
-* Step 3: Go to file and run it
+* Step 3: Go to file.feature and run it
 
     ![Test file](https://github.com/jenar-k/Jenar-TestQ/assets/86145540/4903ed15-9086-410c-960f-eee4a9589194)
 
